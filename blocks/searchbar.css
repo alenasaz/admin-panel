@@ -1,0 +1,65 @@
+:root {
+    --input-color: #459DF5;
+    --border-color: #8055FF;
+  }
+
+.searchbar-wrapper {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin: 0 auto;
+    border: 0.0625rem dashed var(--border-color);
+    padding: 1rem;
+  }
+
+
+  .input_item
+  {
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+    width: 16rem;
+    height: 2rem;
+    border: 0.0625rem solid var(--input-color);
+    box-sizing: border-box;
+    border-radius: 0.25rem;    
+  }
+
+  .input_item::placeholder
+  {
+    color: #BAD8F5;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+  }
+
+  .input_item::-ms-value
+  {
+    font-size: 0.8125rem;
+    line-height: 1rem; 
+  }
+
+
+  .input_items_order_number, .input_items_last_name
+  {
+    position: relative;
+  }
+
+
+  .input_icon{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    top: 0.5rem;
+
+  } 
+
+  .input_icon_cancel
+  {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    top: 0.5rem;
+    left: 14.5rem;
+  }
