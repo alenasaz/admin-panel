@@ -4,7 +4,7 @@
 }
 
 
-.radio {
+.checkbox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
 }
 
 
-.radio_form {
+.checkbox_form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,21 +21,18 @@
     border: 0.0625rem dashed var(--border-color);
     box-sizing: border-box;
     border-radius: 0.25rem;
+    margin-left: 32px;
 }
 
-
-
-
-.radio__input {
+.checkbox__input {
     width: 1rem;
     height: 1rem;
     margin: 1rem;
 }
 
 
-.radio__input-default
-{
+.checkbox__input-default {
     appearance: none;
     border: 0.0625rem solid var(--border-radio);
-    border-radius: 1rem;
+    border-radius: 0.125rem;
 }
