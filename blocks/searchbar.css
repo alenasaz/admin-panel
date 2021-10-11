@@ -1,0 +1,61 @@
+:root {
+    --input-color: #459DF5;
+    --border-color: #8055FF;
+  }
+
+.searchbar_wrapper {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 22rem;
+    height: 12rem;
+    margin: 0 auto;
+    border: 0.0625rem dashed var(--border-color);
+    padding: 1rem;
+  }
+
+
+  .searchbar_input_item
+  {
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+    width: 16rem;
+    height: 2rem;
+    border: 0.0625rem solid var(--input-color);
+    box-sizing: border-box;
+    border-radius: 0.25rem;    
+  }
+
+  .searchbar_input_item::placeholder
+  {
+    color: #BAD8F5;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    padding-left: 12px;
+  }
+
+  .default_item::placeholder
+  {
+    color: #000;
+  }
+
+
+  .searchbar_input_items
+  {
+    position: relative;
+  }
+
+
+  .searchbar_input_icon{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    top: 0.5rem;
+
+  } 
+
+  .icon_cancel
+  {
+    left: 14.5rem;
+  }
