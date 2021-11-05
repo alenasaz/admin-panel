@@ -1,88 +1,85 @@
 :root {
-    --border-color: #8055FF;
-    --button-font-color: #FFF;
-    --button-font-color-black: #000;
-    --button-shadow-normal: #BAD8F5;
-    --button-shadow-dark: rgba(0, 0, 0, 0.2);
-    --button-background-color: #459DF5;
-    --button-empty-color: #459DF5;
-  }
+  --border-color: #8055ff;
+  --button-font-color: #fff;
+  --button-font-color-black: #000;
+  --button-shadow-normal: #bad8f5;
+  --button-shadow-dark: rgba(0, 0, 0, 0.2);
+  --button-background-color: #459df5;
+  --button-empty-color: #459df5;
+}
 
 body {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-  }
-  
-  /* временная обертка  */
-  .button-wrapper {
-    display: flex;
-    justify-content: space-around;
-    width: 37.5rem;
-    margin: 0 auto;
-    border: 0.0625rem dashed var(--border-color);
-    padding: 1rem;
-    border-radius: 0.3125rem;
-  }
-  
-  .button-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 3rem;
-    width: 9.375rem;
-  }
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
 
+/* временная обертка  */
+.button-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 37.5rem;
+  margin: 0 auto;
+  border: 0.0625rem dashed var(--border-color);
+  padding: 1rem;
+  border-radius: 0.3125rem;
+}
 
-  .button {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    border-radius: 0.25rem;
-    color: var(--button-font-color);
-    margin-bottom: 1rem;
-  }
-  
-  .button:hover {
-    box-shadow: 0rem 0.125rem 0.3125rem 0.125rem var(--button-shadow-normal);
-  }
-  
-  .button__icon {
-    width: 1.25rem;
-    height: 1.25rem;
-  }
-  
-  .button__text {
-    font-size: 0.8125rem;
-    display: block;
-    padding-left: 0.25rem;
-  }
+.button-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+  width: 9.375rem;
+}
 
-  .button__big-colored {
-    background-color: var(--button-background-color);
-    padding: 0.5rem 1.25rem 0.5rem 1rem;
-    color: var(--button-font-color);
-  }
+.button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  border-radius: 0.25rem;
+  color: var(--button-font-color);
+  margin-bottom: 1rem;
+}
 
-  .button__small-colored {
-    background-color: var(--button-background-color);
-    padding: 0.25rem 0.8rem 0.25rem 0.5rem;
-    color: var(--button-font-color);
-  }
+.button:hover {
+  box-shadow: 0rem 0.125rem 0.3125rem 0.125rem var(--button-shadow-normal);
+}
 
-  .button__big-empty {
-    padding: 0.5rem 1.25rem 0.5rem 1rem;
-    color: var(--button-empty-color);
-  }
-  
-  .button__small-empty {
-    padding: 0.25rem 0.8rem 0.25rem 0.5rem;
-    color: var(--button-empty-color);
-  }
+.button__icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
 
-  .button__text-black
-  {
-        color: var(--button-font-color-black);
+.button__text {
+  font-size: 0.8125rem;
+  display: block;
+  padding-left: 0.25rem;
+}
 
-  }
+.button_big_colored {
+  background-color: var(--button-background-color);
+  padding: 0.5rem 1.25rem 0.5rem 1rem;
+  color: var(--button-font-color);
+}
+
+.button_small_colored {
+  background-color: var(--button-background-color);
+  padding: 0.25rem 0.8rem 0.25rem 0.5rem;
+  color: var(--button-font-color);
+}
+
+.button_big_nobackground {
+  padding: 0.5rem 1.25rem 0.5rem 1rem;
+  color: var(--button-empty-color);
+}
+
+.button_small_nobackground {
+  padding: 0.25rem 0.8rem 0.25rem 0.5rem;
+  color: var(--button-empty-color);
+}
+
+.button__text-black {
+  color: var(--button-font-color-black);
+}
