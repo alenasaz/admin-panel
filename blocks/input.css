@@ -93,6 +93,10 @@ border-radius: 0.25rem;
 
     position:absolute;
     right:6.25rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* justify-content: center; */
     width: 0.75rem;
     height: 0.875rem;
 
