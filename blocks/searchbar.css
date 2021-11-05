@@ -1,74 +1,67 @@
 :root {
-    --input-color: #459DF5;
-    --border-color: #8055FF;
-  }
+  --input-color: #459df5;
+  --border-color: #8055ff;
+}
 
 .searchbar {
-    font-family: 'Ubuntu', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 22rem;
-    height: 12rem;
-    margin: 0 auto;
-    border: 0.0625rem dashed var(--border-color);
-    padding: 1rem;
-  }
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 22rem;
+  height: 12rem;
+  margin: 0 auto;
+  border: 0.0625rem dashed var(--border-color);
+  padding: 1rem;
+}
 
-  .searchbar__input
-  {
-    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
-    width: 16rem;
-    height: 2rem;
-    border: 0.0625rem solid var(--input-color);
-    box-sizing: border-box;
-    border-radius: 0.25rem;    
-  }
+.searchbar__input {
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  width: 16rem;
+  height: 2rem;
+  border: 0.0625rem solid var(--input-color);
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
 
-  .searchbar__input::placeholder
-  {
-    color: #BAD8F5;
-    font-size: 0.8125rem;
-    line-height: 1rem;
-    padding-left: 12px;
-  }
+.searchbar__input::placeholder {
+  color: #bad8f5;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  padding-left: 0.75rem;
+}
 
-  .searchbar__input-default::placeholder
-  {
-    color: #000;
-  }
+input[value] {
+  padding-left: 1.25rem;
+}
 
+.searchbar__input-items {
+  position: relative;
+}
 
-  .searchbar__input-items
-  {
-    position: relative;
-  }
+.searchbar__input-icon {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 0.5rem;
+}
 
+.searchbar__button {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  position: absolute;
+  margin-right: 0.3rem;
+}
 
-  .searchbar__input-icon{
-    position: absolute;
-    width: 1rem;
-    height: 1rem;
-    top: 0.5rem;
-
-  } 
-
-  .searchbar__button{
-    appearance: none;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    width: 1rem;
-    height: 1rem;
-    padding: 0;
-    position: absolute;
-    margin-right: 0.3rem;
-  }
-
-  .searchbar__buttom-icon{
-      position: absolute;
-      width: 1rem;
-      height: 1rem;
-      right: 1.5rem;
-  }
+.searchbar__buttom-icon {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  right: 1.5rem;
+}
