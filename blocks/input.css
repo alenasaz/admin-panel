@@ -1,0 +1,100 @@
+.input-wrapper
+{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 22rem;
+    height: 25rem;
+
+    border: 0.0625rem dashed #8055FF;
+    box-sizing: border-box;
+    border-radius: 0.3125rem;
+}
+
+.input_label
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+}
+
+.input_window
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+    border: 0.0625rem solid #459DF5;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+}
+
+.input_window::placeholder
+{
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    color: #BAD8F5;
+}
+.input-window-error-icon
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input_window_error {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+border: 0.0625rem solid #F53152;
+box-sizing: border-box;
+border-radius: 0.25rem;
+}
+
+.input_window_error::-ms-value, .input_window_blue::-ms-value {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+}
+
+.input_icon_error
+{
+    position:absolute;
+    right: 6.25rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.input-window-icon
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.input_window_blue 
+{
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+    background: #BAD8F5;
+    border: 0.0625rem solid #459DF5;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    
+}
+
+.input_icon {
+
+    position:absolute;
+    right:6.25rem;
+    width: 0.75rem;
+    height: 0.875rem;
+
+
+}
